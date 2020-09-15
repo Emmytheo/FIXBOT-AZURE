@@ -1,0 +1,33 @@
+{
+  "name": "fixbotgps",
+  "version": "1.0.0",
+  "description": "fixbot gps server in dev mode",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase-admin": "^9.1.1",
+    "gps-tracking": "^1.1.1",
+    "http": "0.0.1-security",
+    "socket.io": "^2.3.0",
+    "woke-dyno": "0.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Emmytheo",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emmytheo/FIXBOT-AZURE.git"
+  },
+  "keywords": [
+    "Fixbot",
+    "GPS-tracking"
+  ],
+  "bugs": {
+    "url": "https://github.com/Emmytheo/FIXBOT-AZURE/issues"
+  },
+  "homepage": "https://github.com/Emmytheo/FIXBOT-AZURE#readme"
+}
