@@ -10,6 +10,7 @@ var options = {
     'device_adapter': "TK218"
 }
 console.log("http server started at port 3000");
+console.log("Socket server started at port 3000");
 console.log("gps server started at port 8090");
 
 app.use(express.static('site/public'));
