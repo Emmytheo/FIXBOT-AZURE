@@ -2,16 +2,16 @@ var express = require('express');
 var app = express();
 var socketServer = require('http').createServer(app);
 var io = require('socket.io')(socketServer);
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 80);
 var gps = require("gps-tracking");
 var options = {
     'debug': true,
-    'port': 8090,
+    'port': 443,
     'device_adapter': "TK218"
 }
-console.log("http server started at port 3000");
-console.log("Socket server started at port 3000");
-console.log("gps server started at port 8090");
+console.log("http server started at port 80");
+console.log("Socket server started at port 80");
+console.log("gps server started at port 443");
 
 app.use(express.static('site/public'));
 app.get('/', function (req, res) {
